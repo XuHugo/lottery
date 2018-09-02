@@ -1,7 +1,7 @@
 pragma solidity ^0.4.23;
 
-contract Lottery10Users {
-    address[10] cormorants;
+contract Lottery {
+    address[3] cormorants;
     uint8 Count = 0;
     uint nonce = 0;
 
